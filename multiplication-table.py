@@ -28,6 +28,14 @@ for i in range(1,width+1):
     for j in range(1,height+1):
         print(i*j)
     
+    
+# array 
+a = [1, 2, 3, 4] 
+  
+# printing a element in same 
+# line 
+for i in range(4): 
+    print(a[i], end =" ") 
 
    
 
