@@ -25,16 +25,10 @@ width = int(input("Width of multiplication table: "))
 height = int(input("Height of multiplication table: "))
 
 
+print("The number is: {0:>3}".format(1))         # Prints "The number is:   1"
 
 for i in (str(range(1,height+1))):
     for j in (str(range(1,width+1))):
     
-    print("The number is: {0:>3}".format(1))         # Prints "The number is:   1"
-print("The number is: {0:>3}".format(12))        # Prints "The number is:  12"
-print("The number is: {0:>3}".format(123))       # Prints "The number is: 123"
-        
-        
-        
-        
-        print((i * j))
+    print("multiplication table is: {0:>3}".format(i * j))
     
